@@ -1,5 +1,7 @@
 package main
 
+// import "log/slog"
+
 func main() {
 	// TODO: init config
 
