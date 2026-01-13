@@ -1,10 +1,13 @@
 package main
 
-// import "log/slog"
+import (
+	"fmt"
+	"link-shortener/internal/config"
+)
 
 func main() {
-	// TODO: init config
-
+	cfg := config.MustLoad()
+	fmt.Println(cfg)
 	// TODO: init logger
 
 	// TODO: init storage
