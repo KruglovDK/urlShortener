@@ -1,5 +1,5 @@
 ## Project stack
-- configuration - [**cleanenv**](github.com/ilyakaznacheev/cleanenv)
+- configuration - [**cleanenv**]
 - logging - **log/slog**
-- storage - **sqlite** (will be replaced by PostgreSQL)
+- storage - **sqlite3** (will be replaced by PostgreSQL)
 - router - **chi, chi/render**
