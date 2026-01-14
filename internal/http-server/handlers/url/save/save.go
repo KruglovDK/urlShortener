@@ -2,12 +2,12 @@ package save
 
 import (
 	"errors"
-	resp "link-shortener/internal/lib/api/response"
-	"link-shortener/internal/lib/logger/sl"
-	"link-shortener/internal/lib/random"
-	"link-shortener/internal/storage"
 	"log/slog"
 	"net/http"
+	resp "url-shortener/internal/lib/api/response"
+	"url-shortener/internal/lib/logger/sl"
+	"url-shortener/internal/lib/random"
+	"url-shortener/internal/storage"
 
 	"github.com/go-chi/chi/v5/middleware"
 	"github.com/go-chi/render"

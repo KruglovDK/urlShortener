@@ -2,14 +2,14 @@ package main
 
 import (
 	//"fmt"
-	"link-shortener/internal/config"
-	"link-shortener/internal/http-server/handlers/url/save"
-	"link-shortener/internal/lib/logger/handlers/slogpretty"
-	"link-shortener/internal/lib/logger/sl"
-	"link-shortener/internal/storage/sqlite"
 	"log/slog"
 	"net/http"
 	"os"
+	"url-shortener/internal/config"
+	"url-shortener/internal/http-server/handlers/url/save"
+	"url-shortener/internal/lib/logger/handlers/slogpretty"
+	"url-shortener/internal/lib/logger/sl"
+	"url-shortener/internal/storage/sqlite"
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
